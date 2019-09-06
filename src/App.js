@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Matt from './about/matt/matt'
+import Jose from './about/jose/jose'
 
 function App() {
   return (
