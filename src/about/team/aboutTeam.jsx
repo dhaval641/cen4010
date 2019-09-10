@@ -95,25 +95,6 @@ const cards = [
     key: 2
   }
 ]
-const buttons = [
-  {
-    link: "/nazik",
-    
-  },
-  {
-    link: "/jose",
-    
-  },
-  {
-    link: "/dhaval",
-    
-  },
-  {
-    link: "/matt",
-    
-  }
-]
-
 
 export default function Team() {
   const classes = useStyles();
