@@ -5,9 +5,12 @@ import * as serviceWorker from './serviceWorker';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
-import App from './App'
-import Matt from './about/matt/matt'
-import Jose from './about/jose/jose'
+import App from './App';
+import Matt from './about/matt/matt';
+import Jose from './about/jose/jose';
+import Nazik from './about/nazik/nazik';
+import Dhaval from './about/dhaval/dhaval'
+
 
 const routing = (
     <Router>
@@ -15,6 +18,8 @@ const routing = (
             <Route path exact="/" component={App} />
             <Route path="/matt" component={Matt} />
             <Route path="/jose" component={Jose} />
+            <Route path="/nazik" component={Nazik}/>
+            <Route path="/dhaval" component={Dhaval}/>
         </div>
     </Router>
 )
